@@ -1,0 +1,19 @@
+{
+  "name": "rooftop-meme-duel",
+  "version": "1.0.0",
+  "description": "Hilarious 2-Player Physics Ragdoll Duel for CrazyGames",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0",
+    "vite": "^6.2.0"
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Rooftop Meme Duel - Funny 2 Player Physics Ragdoll Battle</title>
+  <meta name="description" content="Hilarious 2-player ragdoll physics duel! Blast meme opponents off the rooftop with bazookas, laser blasters and tuna fish. Climb the Meme Tower, survive sudden death lava, and unlock Capybara and Doge skins!">
+  <meta name="keywords" content="rooftop meme duel, 2 player games, ragdoll physics, funny games, duel games, rooftop snipers, meme duel, stickman, capybara, arena shooter, physics battle, crazygames">
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥊</text></svg>">
+
+  <!-- Google Fonts: Lilita One & Fredoka for Cartoon Arcade Polish -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700;800&family=Lilita+One&display=swap" rel="stylesheet">
+
+  <!-- CrazyGames SDK v3 -->
+  <script src="https://sdk.crazygames.com/crazygames-sdk-v3.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      touch-action: none;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #game-container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    canvas {
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
